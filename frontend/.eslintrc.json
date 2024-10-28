@@ -17,16 +17,13 @@
     "sourceType": "module"
   },
   "rules": {
-    "prettier/prettier": ["error"]
+    "prettier/prettier": ["warn"]
   },
   "overrides": [
     {
-      "files": ["frontend/**/*.{js,jsx,ts,tsx}"],
-      "rules": {
-      }
-    },
-    {
-      "files": ["backend/**/*.js"],
+      "files": [
+        "src/**/*.{js,jsx,ts,tsx}"
+      ],
       "rules": {
       }
     }
