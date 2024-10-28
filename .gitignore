@@ -1,3 +1,6 @@
+# dependencies
+/node_modules
+
 # Ignore JetBrains IDE project files
 *.iml
 .idea/
