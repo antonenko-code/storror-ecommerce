@@ -3,7 +3,8 @@ import "./globals.css";
 
 export const metadata: Metadata = {
   title: "STORROR® | Clothing & Technical sportswear",
-  description: "Discover STORROR®'s exclusive range of clothing, shoes, and accessories, designed by world-class parkour athletes. Shop now for premium gear!",
+  description:
+    "Discover STORROR®'s exclusive range of clothing, shoes, and accessories, designed by world-class parkour athletes. Shop now for premium gear!",
 };
 
 export default function RootLayout({
@@ -13,9 +14,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body>
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }

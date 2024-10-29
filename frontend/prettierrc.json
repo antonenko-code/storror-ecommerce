@@ -1,12 +1,21 @@
 {
-  "plugins": [
-    "@trivago/prettier-plugin-sort-imports"
-  ],
+  "plugins": ["@trivago/prettier-plugin-sort-imports"],
   "importOrder": [
     "react",
     "next",
     "<THIRD_PARTY_MODULES>",
-    "^[./]"
+    "^[./]",
+    "@app/",
+    "@components/",
+    "@hooks/",
+    "@constants/",
+    "@interfaces/",
+    "@enums/",
+    "@types/",
+    "@utils/",
+    "@styles/",
+    "@assets/",
+    "@public/"
   ],
   "importOrderSeparation": true,
   "importOrderSortSpecifiers": true,
