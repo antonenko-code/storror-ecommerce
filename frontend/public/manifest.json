@@ -1,0 +1,23 @@
+{
+  "name": "STORROR",
+  "short_name": "Storror",
+  "description": "Discover STORROR®'s exclusive range of clothing, shoes, and accessories, designed by world-class parkour athletes. Shop now for premium gear!",
+  "start_url": "/?source=pwa",
+  "icons": [
+    {
+      "src": "/web-app-manifest-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png",
+      "purpose": "maskable"
+    },
+    {
+      "src": "/web-app-manifest-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "maskable"
+    }
+  ],
+  "theme_color": "#1B1B1B",
+  "background_color": "#ffffff",
+  "display": "standalone"
+}
